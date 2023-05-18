@@ -33,7 +33,7 @@ else()
 endif()
 
 target_include_directories(${BOT_NAME} PUBLIC
-    ${CMAKE_CURRENT_SOURCE_DIR}/include
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/include
     ${OPENSSL_INCLUDE_DIR}
 )
 
